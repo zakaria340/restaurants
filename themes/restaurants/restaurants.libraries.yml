@@ -1,0 +1,8 @@
+base:
+  version: VERSION
+  css:
+    base:
+      css/main.css: { weight: -10 }
+      css/homepage.css: { weight: -10 }
+      css/search.css: { weight: -10 }
+      css/icons.css: { weight: -10 }

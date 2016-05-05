@@ -1,0 +1,1019 @@
+.header-main {
+    height: 60px;
+}
+.searchBarWrapper {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.13);
+    width: 100%;
+    z-index: 3;
+}
+.searchBarWrapper .searchBar {
+    margin: 0 auto;
+}
+.no-boxshadow .searchBarWrapper {
+    border-bottom: 1px solid #dedede;
+}
+.searchBarWrapper.affix-bottom {
+    position: absolute;
+}
+.searchBarWrapper, .searchBarWrapper #searchText, .searchBarWrapper .searchBar {
+    transition: all 0.3s ease 0s;
+}
+.searchBarWrapper.affix {
+    top: 0;
+}
+.searchBarWrapper.affix, .searchBarWrapper.affix #searchText, .searchBarWrapper.affix .searchBar {
+    background-color: #f3f4f5;
+}
+.searchBarMenuFullText {
+    background-color: #fff;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 10px 0 42px;
+    width: 960px !important;
+    z-index: 10;
+}
+.no-boxshadow .searchBarMenuFullText {
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+.searchBarMenuFullText div {
+    border-bottom: 1px solid #e0e0e2;
+    margin: 0 0 0 55px;
+    padding: 10px 0;
+}
+.searchBarMenuFullText .searchBarMenuFullText-item {
+    background-position: 22px 12px;
+    cursor: pointer;
+}
+.searchBarMenuFullText .searchBarMenuFullText-location {
+    cursor: pointer;
+}
+.searchBarMenuFullText .searchBarMenuFullText-locationIcon {
+    background-clip: padding-box;
+    background-color: #589442;
+    background-position: center center;
+    border-radius: 4px;
+    float: left;
+    height: 29px;
+    margin: 6px 0 0 14px;
+    transition: background-color 0.3s ease 0s;
+    width: 30px;
+}
+.searchBarMenuFullText .searchBarMenuFullText-locationIcon:hover {
+    background-color: #437132;
+}
+.searchBarMenuFullText .searchBarMenuFullText-locationLink {
+    color: #589442;
+    margin: 0 0 0 55px;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: color 0.3s ease 0s;
+}
+.searchBarMenuFullText .searchBarMenuFullText-locationLink:hover {
+    color: #437132;
+}
+.searchBarMenuFullText .searchBarMenuFullText-seeMore {
+    margin-top: 28px;
+    text-align: center;
+}
+.searchBarMenuFullText .searchBarMenuFullText-seeMore a {
+    background-clip: padding-box;
+    border: 2px solid #c5c5ca;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.ui-datepicker table th {
+    color: #589442;
+    font-weight: 400;
+}
+.ui-datepicker table td a, .ui-datepicker table td span {
+    font-size: 14px;
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-header {
+    font-size: 16px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next, .ui-datepicker .ui-datepicker-header .ui-datepicker-next-hover, .ui-datepicker .ui-datepicker-header .ui-datepicker-prev, .ui-datepicker .ui-datepicker-header .ui-datepicker-prev-hover {
+    top: 5px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next span, .ui-datepicker .ui-datepicker-header .ui-datepicker-next-hover span, .ui-datepicker .ui-datepicker-header .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-header .ui-datepicker-prev-hover span {
+    cursor: pointer;
+    height: 12px;
+    width: 8px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-prev {
+    left: 7px;
+    right: inherit;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+    left: inherit;
+    right: -2px;
+}
+.ui-datepicker .ui-datepicker-header span {
+    height: 12px;
+    width: 8px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-month {
+    text-transform: capitalize;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a {
+    background-color: rgba(88, 148, 66, 0.4);
+    color: #589442;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable {
+    color: #c5c5ca;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-current-day a, .ui-datepicker .ui-datepicker-calendar a.ui-state-hover {
+    background-color: #589442;
+    color: #fff;
+}
+.searchBarMenu {
+    background-clip: padding-box;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    list-style: outside none none;
+    padding: 10px;
+    position: absolute;
+    z-index: 10;
+}
+.no-boxshadow .searchBarMenu {
+    border: 1px solid #dedede;
+}
+.no-boxshadow .searchBarMenu::before {
+    border: medium none;
+}
+.searchBarMenu li {
+    cursor: pointer;
+    min-width: 35px;
+    padding: 2px 5px;
+    text-align: left;
+}
+.searchBarMenu li:hover {
+    background-color: #589442;
+    color: #fff;
+}
+.searchBarMenu::before {
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 10px;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 20px;
+    position: absolute;
+    right: auto;
+    top: -20px;
+    transform: scale(0.9999);
+    width: 0;
+}
+.searchBarMenu--flipped.searchBarMenu::before {
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    bottom: -20px;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 20px;
+    position: absolute;
+    right: auto;
+    top: auto;
+    transform: scale(0.9999);
+    width: 0;
+}
+.searchBarMenu #pax-button, .searchBarMenu #time-menu {
+    width: 80px;
+}
+.searchBarMenu.searchBar-datepickerWrapper {
+    padding: 15px 25px;
+}
+.searchBarMenu.searchBar-error {
+    background-position: 15px 10px;
+    padding-left: 50px;
+    width: 340px;
+}
+.searchBarMenu.searchBarMenuFoodType li {
+    cursor: pointer;
+}
+.searchBarMenu.searchBarMenuFoodType a:hover {
+    text-decoration: none;
+}
+.searchBarSubmit {
+    overflow: hidden;
+}
+.searchBarSubmit .searchBarSubmit-content {
+    display: block;
+    position: relative;
+}
+.searchBarSubmit .searchBarSubmit-content::after, .searchBarSubmit .searchBarSubmit-content::before {
+    height: 15px;
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    transition: opacity 0.3s ease 0.3s;
+    width: 15px;
+}
+.searchBarSubmit.searchBarSubmit--icon .searchBarSubmit-content {
+    transform: translateX(160%);
+    transition: -webkit-transform 0.3s ease 0s, -moz-transform 0.3s ease 0s, -o-transform 0.3s ease 0s, transform 0.3s ease 0s;
+    z-index: 10;
+}
+.searchBarSubmit.searchBarSubmit--icon .searchBarSubmit-content::before {
+    content: "";
+    left: -100%;
+    margin-left: -15px;
+    margin-top: -7px;
+    opacity: 1;
+    right: auto;
+    top: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease 0s;
+}
+.searchBar {
+    -moz-user-select: none;
+    background-clip: padding-box;
+    background-color: #fff;
+    border-radius: 3px;
+    display: table;
+    font-size: 16px;
+    height: 60px;
+    width: 960px;
+}
+.searchBar input {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.searchBar .searchBar-error {
+    display: none;
+}
+.searchBar .searchBar-where {
+    background-position: 14px center;
+    display: table-cell;
+    outline: 0 none;
+    padding: 0 0 0 43px;
+    position: relative;
+    vertical-align: middle;
+}
+.searchBar--standalone.searchBar .searchBar-where {
+    background-position: 5px center;
+    padding: 0 0 0 35px;
+}
+.searchBar .searchBar-where .searchBar-whereInputContainer {
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.searchBar .searchBar-where .searchBar-whereInputContainer input {
+    font-size: 16px;
+    outline: 0 none;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.searchBar .searchBar-where .searchBar-whereIconContainer {
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    padding: 0 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 29px;
+}
+.searchBar .searchBar-where .searchBar-whereIconContainer .searchBar-whereIcon {
+    background-clip: padding-box;
+    background-position: center center;
+    border-radius: 4px;
+    height: 29px;
+    width: 29px;
+}
+.searchBar .searchBar-where .searchBar-whereIconContainer .searchBar-whereIcon.searchBar-whereIcon--location {
+    background-color: #589442;
+    transition: background-color 0.3s ease 0s;
+}
+.searchBar .searchBar-where .searchBar-whereIconContainer .searchBar-whereIcon.searchBar-whereIcon--location:hover {
+    background-color: #437132;
+}
+.searchBar .searchBar-cuisineContainer {
+    background-position: right center;
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    transition: background-color 0.3s ease 0s;
+    vertical-align: middle;
+    width: 111px;
+}
+.searchBar .searchBar-cuisineContainer:hover {
+    background-color: #bbd3b2;
+}
+.searchBar .searchBar-cuisineContainer:hover .searchBar-inputContainer, .searchBar .searchBar-cuisineContainer:hover + div .searchBar-inputContainer {
+    border-left-color: transparent;
+}
+.searchBar .searchBar-cuisineContainer .searchBar-inputContainer {
+    background-position: right 11px;
+    border-left: 1px solid #dedede;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 20px 0 10px;
+    transition: border-left-color 0.3s ease 0s;
+    width: 101px;
+}
+.searchBar .searchBar-cuisineContainer select {
+    background-color: transparent;
+    display: none;
+    outline: 0 none;
+    padding-right: 20px;
+    text-overflow: ellipsis;
+    width: 136px;
+}
+.searchBar .searchBar-cuisineContainer label {
+    display: none;
+}
+.searchBar .searchBar-dateContainer {
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    transition: background-color 0.3s ease 0s;
+    vertical-align: middle;
+    width: 98px;
+}
+.searchBar .searchBar-dateContainer:hover {
+    background-color: #bbd3b2;
+}
+.searchBar .searchBar-dateContainer:hover .searchBar-inputContainer, .searchBar .searchBar-dateContainer:hover + div .searchBar-inputContainer {
+    border-left-color: transparent;
+}
+.searchBar .searchBar-dateContainer .searchBar-inputContainer {
+    background-position: right 11px;
+    border-left: 1px solid #dedede;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 20px 0 10px;
+    transition: border-left-color 0.3s ease 0s;
+    width: 88px;
+}
+.searchBar .searchBar-date {
+    background-position: right center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.searchBar .searchBar-datepickerWrapper {
+    display: none;
+    text-align: center;
+}
+.searchBar .searchBar-datepickerWrapper .searchBar-noDate {
+    font-size: 12px;
+}
+.searchBar .searchBar-separatorContainer {
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    vertical-align: middle;
+    width: 17px;
+}
+.searchBar .searchBar-separatorContainer .searchBar-separator {
+    border-left: 1px solid #dedede;
+    height: 22px;
+    width: 1px;
+}
+.searchBar--embed.searchBar .searchBar-separatorContainer {
+    display: none;
+}
+.searchBar .searchBar-hourContainer {
+    background-position: right center;
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    transition: background-color 0.3s ease 0s;
+    vertical-align: middle;
+    width: 98px;
+}
+.searchBar .searchBar-hourContainer:hover {
+    background-color: #bbd3b2;
+}
+.searchBar .searchBar-hourContainer:hover .searchBar-inputContainer, .searchBar .searchBar-hourContainer:hover + div .searchBar-inputContainer {
+    border-left-color: transparent;
+}
+.searchBar .searchBar-hourContainer .searchBar-inputContainer {
+    background-position: right 11px;
+    border-left: 1px solid #dedede;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 20px 0 10px;
+    transition: border-left-color 0.3s ease 0s;
+    width: 88px;
+}
+.searchBar .searchBar-hourContainer label {
+    display: none;
+}
+.searchBar .searchBar-hour {
+    display: none;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 100%;
+}
+.searchBar .searchBar-paxContainer {
+    background-position: right center;
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    transition: background-color 0.3s ease 0s;
+    vertical-align: middle;
+    width: 98px;
+}
+.searchBar .searchBar-paxContainer:hover {
+    background-color: #bbd3b2;
+}
+.searchBar .searchBar-paxContainer:hover .searchBar-inputContainer, .searchBar .searchBar-paxContainer:hover + div .searchBar-inputContainer {
+    border-left-color: transparent;
+}
+.searchBar .searchBar-paxContainer .searchBar-inputContainer {
+    background-position: right 11px;
+    border-left: 1px solid #dedede;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 20px 0 10px;
+    transition: border-left-color 0.3s ease 0s;
+    width: 88px;
+}
+.searchBar .searchBar-paxContainer label {
+    display: none;
+}
+.searchBar .searchBar-pax {
+    display: none;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 100%;
+}
+.searchBar .searchBar-btn {
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    text-align: right;
+    vertical-align: middle;
+    width: 1%;
+}
+.searchBar .searchBar-btn input {
+    background-clip: padding-box;
+    border: medium none;
+    border-radius: 0 3px 3px 0;
+    line-height: 60px;
+    padding: 0 10px;
+}
+.searchBar.searchBar--embed {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.13);
+}
+.searchBar.searchBar--embed .searchBar-btn button, .searchBar.searchBar--embed .searchBar-btn input {
+    background-clip: padding-box;
+    border-radius: 0 3px 3px 0;
+    line-height: 42px;
+}
+.searchBar.searchBar--standalone .searchBar-btn input {
+    background-clip: padding-box;
+    border-radius: 4px;
+    line-height: 42px;
+}
+.searchBar--black .searchBarWrapper {
+    background-color: #4e4e56;
+    border-spacing: 8px 0;
+    padding: 9px 0;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone {
+    background-color: transparent;
+    height: 42px;
+    width: 976px;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-inputContainer {
+    border-left: 0 none;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-cuisineContainer, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-dateContainer, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-hourContainer, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-paxContainer, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-where, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-whereIconContainer {
+    background-clip: padding-box;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-where {
+    background-position: 10px center;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-whereInputContainer #searchText {
+    background-color: #fff;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-whereIconContainer {
+    padding-right: 0;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-separatorContainer {
+    display: none;
+}
+.breadcrumbs, .breadcrumbs a, .breadcrumbs a:active, .breadcrumbs a:hover, .breadcrumbs a:visited {
+    color: #c5c5ca;
+}
+.breadcrumbs.breadcrumbs--white, .breadcrumbs.breadcrumbs--white a, .breadcrumbs.breadcrumbs--white a:active, .breadcrumbs.breadcrumbs--white a:hover, .breadcrumbs.breadcrumbs--white a:visited {
+    color: #fff;
+}
+.breadcrumbs .breadcrumbs-item {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.breadcrumbs, .breadcrumbs .breadcrumbs-itemContent {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 5px 0 0;
+}
+.hpSubheader {
+    margin: 0 0 45px;
+    position: relative;
+}
+.hpSubheader .hpSubheader-bgWrapper {
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+}
+.hpSubheader .hpSubheader-bg {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.hpSubheader .hpSubheader-bg img {
+    float: right;
+    height: auto;
+    min-height: 420px;
+    min-width: 1300px;
+    width: 100%;
+}
+.hpSubheader .hpSubheader-bgGradient {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 53%, rgba(0, 0, 0, 0.46) 100%) repeat scroll 0 0;
+    height: inherit;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+.hpSubheader .hpSubheader-content {
+    height: 420px;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.hpSubheader .hpSubheader-ambassador, .hpSubheader .hpSubheader-slogan, .hpSubheader .hpSubheader-title {
+    color: #fff;
+}
+.hpSubheader .hpSubheader-ambassador {
+    font-family: Omnes;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    position: absolute;
+    right: 40px;
+    text-align: right;
+}
+.hpSubheader .hpSubheader-titleContainer {
+    display: table;
+    height: 265px;
+    width: 100%;
+}
+.hpSubheader .hpSubheader-titleContainer > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hpSubheader .hpSubheader-title {
+    vertical-align: middle;
+}
+.hpSubheader .hpSubheader-title {
+    font-family: Omnes;
+    font-size: 58px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 0.95;
+    text-align: center;
+}
+.hpSubheader .hpSubheader-slogan {
+    font-family: Omnes;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 0 0;
+    text-align: center;
+}
+.hpSubheader .hpSubheader-searchContainer {
+    bottom: 50px;
+    position: absolute;
+}
+.hpSubheader .optimizely-tags-under-searchbar {
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.hpSubheader .optimizely-tags-under-searchbar ul {
+    list-style: outside none none;
+    margin: 15px 0 -20px;
+    padding: 0;
+}
+.hpSubheader .optimizely-tags-under-searchbar ul li {
+    display: inline;
+    margin-right: 2px;
+}
+.hpSubheader .optimizely-tags-under-searchbar ul li a {
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-family: Omnes;
+    font-weight: 400;
+    padding: 0 6px;
+    text-transform: uppercase;
+}
+.hpSubheader .optimizely-tags-under-searchbar ul li a:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #4e4e56;
+    text-decoration: none;
+}
+.hpSubheader .optimizely-tags-under-searchbar ul li.label {
+    margin-right: 7px;
+}
+.hpArticleItem {
+    position: relative;
+}
+.hpArticleItem .hpArticleItem-image {
+    background-clip: padding-box;
+    border-radius: 2px 2px 0 0;
+    width: 100%;
+}
+.hpArticleItem .hpArticleItem-link {
+    background-clip: padding-box;
+    border-radius: 4px;
+    height: 100%;
+    position: absolute;
+    text-decoration: none;
+    transition: box-shadow 0.4s ease 0s;
+    width: 100%;
+}
+.hpArticleItem .hpArticleItem-link:hover {
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.hpArticleItem .hpArticleItem-text {
+    font-family: Omnes;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 151px 10px 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.hpArticleItem .hpArticleItem-more {
+    font-size: 12px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hpArticleItem.hpArticleItem--big .hpArticleItem-text {
+    padding-top: 302px;
+}
+.rating {
+    font-family: Omnes;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+}
+.rating .rating-ratingValue {
+    display: inline-block;
+    font-family: Omnes;
+    font-size: 28px;
+    font-weight: 600;
+}
+.rating.rating--big {
+    font-size: 14px;
+}
+.rating.rating--big .rating-ratingValue {
+    font-size: 38px;
+}
+.restaurantTag {
+    background-clip: padding-box;
+    border: 1px solid #939396;
+    border-radius: 5px;
+    color: #939396;
+    display: inline-block;
+    font-family: Omnes;
+    font-weight: 400;
+    padding: 0 5px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+a.restaurantTag:hover {
+    background-color: #939396;
+    color: #fff;
+}
+.restaurantTag.restaurantTag--bestOf {
+    border: 1px solid #589442;
+    color: #589442;
+}
+a.restaurantTag.restaurantTag--bestOf:hover {
+    background-color: #589442;
+    color: #fff;
+}
+.restaurantTag.restaurantTag--event {
+    border: 1px solid #b51817;
+    color: #b51817;
+}
+a.restaurantTag.restaurantTag--event:hover {
+    background-color: #b51817;
+    color: #fff;
+}
+.restaurantTag.restaurantTag--small {
+    background-clip: padding-box;
+    border-radius: 2px;
+    font-size: 10px;
+}
+.restaurantTag.restaurantTag--medium {
+    background-clip: padding-box;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.restaurantSelection {
+    display: table !important;
+    font-family: Omnes;
+    font-weight: 500;
+    outline: 0 none;
+    table-layout: fixed;
+    width: 100%;
+}
+.restaurantSelection .restaurantSelection-image {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    width: 92px;
+}
+.restaurantSelection .restaurantSelection-image img {
+    height: 60px;
+    overflow: hidden;
+    width: 80px;
+}
+.restaurantSelection .restaurantSelection-ranking {
+    background-clip: padding-box;
+    background-color: #589442;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    height: 28px;
+    left: -10px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    width: 28px;
+}
+.restaurantSelection .restaurantSelection-infoContainer {
+    display: table-cell;
+    padding-right: 12px;
+    vertical-align: top;
+}
+.restaurantSelection .restaurantSelection-name {
+    display: block;
+    font-size: 14px;
+    line-height: 1.1;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.restaurantSelection .restaurantSelection-name:hover {
+    text-decoration: none;
+}
+.restaurantSelection .restaurantSelection-saleTypeLabel {
+    display: block;
+    font-size: 11px;
+    margin-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.restaurantSelection .restaurantSelection-saleTypeLabel:hover {
+    text-decoration: none;
+}
+.restaurantSelection .restaurantSelection-saleTypeLabel--specialOffer, .restaurantSelection .restaurantSelection-saleTypeLabel--specialOffer a {
+    color: #e14123;
+}
+.restaurantSelection .restaurantSelection-saleTypeLabel--specialOffer a:hover, .restaurantSelection .restaurantSelection-saleTypeLabel--specialOffer:hover {
+    color: #e14123;
+}
+.restaurantSelection .restaurantSelection-saleTypeLabel--event, .restaurantSelection .restaurantSelection-saleTypeLabel--event a {
+    color: #b51817;
+}
+.restaurantSelection .restaurantSelection-saleTypeLabel--event a:hover, .restaurantSelection .restaurantSelection-saleTypeLabel--event:hover {
+    color: #b51817;
+}
+.restaurantSelection .restaurantSelection-speciality {
+    margin-bottom: 6px;
+}
+.restaurantSelection .restaurantSelection-rateContainer {
+    border-left: 1px solid #c5c5ca;
+    display: table-cell;
+    vertical-align: top;
+    width: 95px;
+}
+.restaurantSelection .restaurantSelection-avgRate {
+    margin: 8px 0;
+    text-align: right;
+}
+.restaurantSelection .restaurantSelection-rateCount {
+    color: #8b8b91;
+    font-size: 11px;
+    text-align: right;
+}
+.restaurantSelectionWrapper .restaurantSelectionWrapper-title {
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.newsletterSignup {
+    background: transparent url("../../images/newsletter/newsletter-blocker-bg.jpg") no-repeat scroll center center;
+    color: #fff;
+    padding: 20px 50px;
+}
+.newsletterSignup .newsletterSignup-logo {
+    height: 40px;
+    margin: 0 auto 40px;
+}
+.newsletterSignup .newsletterSignup-logo.icon-lafourchette {
+    width: 183px;
+}
+.newsletterSignup .newsletterSignup-logo.icon-eltenedor {
+    width: 160px;
+}
+.newsletterSignup .newsletterSignup-logo.icon-thefork {
+    width: 131px;
+}
+.newsletterSignup .newsletterSignup-promo {
+    background: #fff none repeat scroll 0 0 padding-box;
+    border-radius: 4px;
+    color: #34373f;
+    min-height: 235px;
+    padding-top: 20px;
+}
+.newsletterSignup .newsletterSignup-promoIcon {
+    background-position: center center;
+    border-radius: 50%;
+    height: 52px;
+    margin: 0 auto 10px;
+    padding: 50px;
+    width: 68px;
+}
+.newsletterSignup .newsletterSignup-promoIcon.newsletterSignup-promoIcon--discover {
+    background-color: #921345;
+    box-shadow: -10px 10px 30px -8px #210410 inset;
+}
+.newsletterSignup .newsletterSignup-promoIcon.newsletterSignup-promoIcon--book {
+    background-color: #589442;
+    box-shadow: -10px 10px 30px -8px #243c1b inset;
+}
+.newsletterSignup .newsletterSignup-promoIcon.newsletterSignup-promoIcon--specialOffer {
+    background-color: #e14123;
+    box-shadow: -10px 10px 30px -8px #752010 inset;
+}
+.newsletterSignup .newsletterSignup-promoContent {
+    margin: 0 auto;
+    text-align: center;
+    width: 140px;
+}
+.newsletterSignup .newsletterSignup-promoLabel, .newsletterSignup .newsletterSignup-title {
+    display: block;
+    font-size: 20px;
+}
+.newsletterSignup .newsletterSignup-title {
+    margin: 36px 0;
+    text-align: center;
+}
+.newsletterSignup .newsletterSignup-inputFields label {
+    display: none;
+}
+.newsletterSignup .newsletterSignup-legal {
+    font-size: 12px;
+    text-align: center;
+}
+.newsletterSignup input[disabled] {
+    cursor: default;
+}
+.newsletterSignup .has-error {
+    margin-bottom: 0;
+}
+.newsletterSignup .has-error input {
+    color: #e52814;
+}
+.newsletterSignup .error {
+    color: #e52814;
+    font-size: 12px;
+    list-style: outside none none;
+    padding: 0 0 0 20px;
+}
+.desktopBanner {
+    transition: box-shadow 0.4s ease 0s;
+}
+.desktopBanner:hover {
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.desktopBanner img {
+    background-clip: padding-box;
+    border-radius: 4px;
+}
+.hpContentContainer {
+    float: left;
+    width: 507px;
+}
+.hpRecommendationsContainer {
+    float: right;
+    width: 413px;
+}
+.hpRecommendationsContainer .restaurantSelectionWrapper:first-child {
+    margin-bottom: 50px;
+}
+.hpArticleContainer {
+    margin-bottom: 24px;
+}
+.hpArticleContainer li {
+    margin: 0 0 15px;
+}
+.hpArticleContainer .hpArticleContainer-title {
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.breadcrumbs {
+    margin: 0 0 14px;
+}
+.breadcrumbs ul {
+    margin: 0;
+}
+.hpSuggestionLink {
+    border-top: 1px solid #c5c5ca;
+    margin-top: 35px;
+    padding: 40px 0 0;
+}
+.hpSuggestionLink .hpSuggestionLink-title {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.hpSuggestionLink .hpSuggestionLink-item {
+    float: left;
+    width: 250px;
+}
+.hpLinkSeeAll {
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.hpDescription {
+    border-top: 1px solid #c5c5ca;
+    padding-top: 30px;
+}
+#topRestaurantsCarousel .verticalCarousel-container {
+    padding: 0 5px;
+}
+#topRestaurantsCarousel .restaurantSelection {
+    padding: 15px 10px;
+}
+#recommendedRestaurantsCarousel .verticalCarousel-container {
+    padding: 0 15px;
+}
+#recommendedRestaurantsCarousel .restaurantSelection {
+    padding: 15px 0;
+}
+#restaurantRecommendations {
+    display: none;
+}
+.linkSeeAll {
+    font-family: Omnes;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.searchBar {
+    margin: 0 auto;
+}
+.desktopBanner {
+    margin-bottom: 35px;
+    position: relative;
+    top: -10px;
+}

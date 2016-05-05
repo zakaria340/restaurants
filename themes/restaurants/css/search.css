@@ -1,0 +1,1625 @@
+
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+.ui-slider .ui-slider-handle {
+    cursor: default;
+    height: 1.2em;
+    position: absolute;
+    width: 1.2em;
+    z-index: 2;
+}
+.ui-slider .ui-slider-range {
+    background-position: 0 0;
+    border: 0 none;
+    display: block;
+    font-size: 0.7em;
+    position: absolute;
+    z-index: 1;
+}
+.ui-slider.ui-state-disabled .ui-slider-handle, .ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+.ui-slider-horizontal {
+    height: 0.8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    margin-left: -0.6em;
+    top: -0.3em;
+}
+.ui-slider-horizontal .ui-slider-range {
+    height: 100%;
+    top: 0;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+.ui-slider-vertical {
+    height: 100px;
+    width: 0.8em;
+}
+.ui-slider-vertical .ui-slider-handle {
+    left: -0.3em;
+    margin-bottom: -0.6em;
+    margin-left: 0;
+}
+.ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+}
+.pagerfanta .pagination ul {
+    clear: both;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+.pagerfanta .pagination li {
+    border: medium none;
+    display: inline;
+}
+.pagerfanta .pagination li.active a {
+    color: #222;
+    cursor: default;
+    font-weight: 700;
+    pointer-events: none;
+    text-decoration: none;
+}
+.pagerfanta .pagination li.disabled a {
+    display: none;
+}
+.pagination {
+    clear: both;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 15px;
+}
+.pagination li {
+    border-left: 1px solid #222;
+    padding-left: 5px;
+}
+.pagination li a {
+    font-weight: 400;
+}
+.pagination li.first {
+    border-left: medium none;
+}
+.sprite-trip {
+    background-image: url("../bundles/lafourchettecore/images/sprite-tripadvisor.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+.sprite-trip-rate-0-0 {
+    background-position: 0 0;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-0-5 {
+    background-position: 0 -20px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-1-0 {
+    background-position: 0 -40px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-1-5 {
+    background-position: 0 -60px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-2-0 {
+    background-position: 0 -80px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-2-5 {
+    background-position: 0 -100px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-3-0 {
+    background-position: 0 -120px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-3-5 {
+    background-position: 0 -140px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-4-0 {
+    background-position: 0 -160px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-4-5 {
+    background-position: 0 -180px;
+    height: 20px;
+    width: 119px;
+}
+.sprite-trip-rate-5-0 {
+    background-position: 0 -200px;
+    height: 20px;
+    width: 119px;
+}
+.offer {
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    position: relative;
+}
+.offer P {
+    font-size: 12px;
+    margin: 0;
+}
+.offer H2 {
+    font-size: 17px;
+}
+.offer DIV[class*="span"] {
+    display: inline-block;
+    float: none;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.offer .corner {
+    height: 27px;
+    width: 27px;
+}
+.offer.badge-promo {
+    background: #ff4c02 url("../bundles/lafourchettecore/images/macaron-promo.png") no-repeat scroll 5px center;
+    border-color: #ff4c02;
+    padding: 0 0 0 35px;
+}
+.offer.badge-promo h2 {
+    color: #ff4c02;
+}
+.offer.badge-event {
+    border-color: #ed2939;
+    padding: 0;
+}
+.offer.badge-event h2 {
+    color: #ed2939;
+}
+.offer.badge-event .row-fluid, .offer.badge-promo .row-fluid {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+.offer .text_right {
+}
+#search_filter .search-icon {
+    background: rgba(0, 0, 0, 0) url("../../bundles/lafourchettesearch/images/search/search-sprites.png") no-repeat scroll left top;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#search_filter .search-icon-checkbox {
+    background-position: -1px -29px;
+    height: 24px;
+    width: 24px;
+}
+#search_filter .search-icon-checkbox-checked {
+    background-position: -1px 0;
+    height: 24px;
+    width: 24px;
+}
+#search_filter .remove-filter-btn {
+    background-position: -1px -101px;
+    height: 20px;
+    width: 20px;
+}
+#search_filter .remove-filter-btn:hover {
+    background-position: -1px -126px;
+    height: 20px;
+    width: 20px;
+}
+#search_filter .search-icon-plus {
+    background-position: -1px -80px;
+}
+#search_filter .search-icon-minus {
+    background-position: -1px -58px;
+}
+#search_filter .search-icon-trash {
+    background-position: -1px -151px;
+}
+#search_filter .search-icon-trash:hover {
+    background-position: -1px -172px;
+}
+.super-cbx {
+    position: relative;
+    width: 15px;
+}
+.super-cbx input[type="checkbox"] {
+    display: none;
+}
+.super-cbx label {
+    background: #fcfff4 none repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px #fff inset, 0 1px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    top: 5px;
+    width: 16px;
+}
+.super-cbx label::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #68955d #68955d;
+    border-image: none;
+    border-style: none none solid solid;
+    border-width: medium medium 3px 3px;
+    content: "";
+    height: 5px;
+    left: 3px;
+    opacity: 0;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-45deg);
+    width: 9px;
+}
+.super-cbx label:hover::after {
+    opacity: 0.5;
+}
+.super-cbx input[type="checkbox"]:checked + label::after {
+    opacity: 1;
+}
+.ie7 .super-cbx, .ie8 .super-cbx, .no-csstransforms .super-cbx {
+    position: absolute;
+}
+.ie7 .super-cbx label, .ie8 .super-cbx label, .no-csstransforms .super-cbx label {
+    display: none;
+}
+.ie7 .super-cbx input[type="checkbox"], .ie8 .super-cbx input[type="checkbox"], .no-csstransforms .super-cbx input[type="checkbox"] {
+    display: inline;
+    margin-top: 5px;
+}
+.search-box {
+    border-left: 1px solid #e3e3e3;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    color: #434343;
+}
+.search-box button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    text-decoration: none;
+}
+.search-box button:hover {
+    text-decoration: underline;
+}
+.search-box .search-box-header {
+    border-radius: 3px 3px 0 0;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+}
+.search-box .search-box-content div.none, .search-box .search-box-content ul, .search-box .search-box-footer button {
+    margin: 0 15px;
+}
+.search-box .search-box-content h3 {
+    font-size: 14px;
+    padding: 8px 15px;
+}
+.search-box .search-box-content dd {
+    margin: 0;
+    padding: 0;
+}
+.search-box .search-box-content li {
+    margin-bottom: 0;
+}
+.search-box .search-box-content label {
+    font-weight: 400;
+}
+.search-box .search-box-footer {
+    border-radius: 0 0 3px 3px;
+    border-top: 1px solid #fff;
+    padding: 10px 0;
+}
+.search-box .search-box-footer button {
+    font-weight: 700;
+    padding: 1px 0 1px 25px;
+}
+#summary-box {
+    color: #323232;
+}
+#summary-box .search-box-header {
+    background-color: #646464;
+    color: #fff;
+    position: relative;
+    text-shadow: -1px 1px 0 #525252;
+}
+#summary-box .search-box-header button {
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 20px;
+}
+#summary-box .search-box-header button span {
+    display: none;
+}
+#summary-box .search-box-content {
+    background-color: #fcfcfc;
+}
+#summary-box .search-box-content dt {
+    border-top: 1px solid #fff;
+    display: none;
+}
+#summary-box .search-box-content ul {
+    margin: 0;
+}
+#summary-box .search-box-content li {
+    border-top: 1px solid #c6d8ca;
+    font-size: 12px;
+    padding: 5px 15px;
+}
+#summary-box .search-box-content button span {
+    display: none;
+}
+#summary-box .search-box-footer {
+    background-color: #eef5ee;
+}
+#summary-box .search-box-footer button {
+    color: #5f7d65;
+}
+.filter-box .search-box-header {
+    background-color: #e3e3e3;
+    border-bottom: 1px solid #dcdcdc;
+}
+.filter-box .search-box-content {
+    background-color: #fcfcfc;
+}
+.filter-box .search-box-content dd {
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #fff;
+    padding: 10px 0 8px;
+}
+.filter-box .search-box-content dt {
+    border-top: 1px solid #fff;
+}
+.filter-box .search-box-content li {
+    margin: 0 0 8px;
+}
+.filter-box .search-box-content label {
+    padding-left: 25px;
+    vertical-align: sub;
+}
+.filter-box .search-box-content h3 {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #dcdcdc;
+}
+.filter-box .search-box-content .super-cbx label {
+    padding-left: 0;
+}
+.filter-box .search-box-content .none {
+    font-style: italic;
+}
+.filter-box .search-box-footer {
+    background-color: #f6f6f6;
+}
+.filter-box .filter-box-see-more {
+    margin: 10px 0 5px;
+    text-align: center;
+}
+.filter-box .filter-box-see-more button {
+    color: #333;
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: underline;
+}
+.filter-box .filter-box-see-more button:hover {
+    text-decoration: none;
+}
+#search_filter .ui-slider {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 5px 15px 20px;
+}
+#search_filter .ui-slider .ui-widget-header {
+    background: rgba(0, 0, 0, 0) url("../../bundles/lafourchettesearch/images/search/slider-handle-bg.png") repeat-x scroll 0 0;
+}
+#search_filter .ui-slider .ui-slider-handle {
+    background: rgba(0, 0, 0, 0) url("../../bundles/lafourchettesearch/images/search/search-sprites.png") no-repeat scroll -94px -5px;
+    height: 24px;
+    margin-left: -13px;
+    outline: 0 none;
+    top: -0.4em;
+    width: 27px;
+}
+#search_filter .ui-slider .ui-slider-handle:first-of-type {
+    background: rgba(0, 0, 0, 0) url("../../bundles/lafourchettesearch/images/search/search-sprites.png") no-repeat scroll -60px -5px;
+}
+#search_filter .ui-slider.mono .ui-slider-handle {
+    background: rgba(0, 0, 0, 0) url("../../bundles/lafourchettesearch/images/search/search-sprites.png") no-repeat scroll -30px -5px;
+}
+#search_filter .slider-tip {
+    bottom: -15px;
+    color: #28bb72;
+    font-size: 12px;
+    font-weight: 700;
+    left: -50%;
+    position: absolute;
+    white-space: nowrap;
+}
+.filters-popin-wrapper {
+    max-height: 400px;
+    min-width: 190px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px 5px 0 10px;
+}
+.filters-popin-wrapper li {
+    margin-bottom: 5px;
+}
+.filters-popin-wrapper .scroller th {
+    padding-bottom: 10px;
+    text-align: left;
+}
+.filters-popin-wrapper td {
+    vertical-align: top;
+}
+.filtersPopin .m_t {
+    margin-top: 15px;
+}
+#colorbox .super-cbx + a label, #colorbox .super-cbx + label {
+    font-weight: 400;
+    padding-left: 25px;
+}
+.resultBanner {
+    padding: 0 10px 30px 14px;
+}
+.resultBanner .resultBanner-image {
+    margin-bottom: 20px;
+}
+.rating {
+    font-family: Omnes;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+}
+.rating .rating-ratingValue {
+    display: inline-block;
+    font-family: Omnes;
+    font-size: 28px;
+    font-weight: 600;
+}
+.rating.rating--big {
+    font-size: 14px;
+}
+.rating.rating--big .rating-ratingValue {
+    font-size: 38px;
+}
+.ratingTripadvisor {
+    display: inline-block;
+    height: 18px;
+    width: 110px;
+}
+.ratingTripadvisor.ratingTripadvisor--0-0 {
+    background-position: 0 0;
+}
+.ratingTripadvisor.ratingTripadvisor--0-5 {
+    background-position: 0 -18px;
+}
+.ratingTripadvisor.ratingTripadvisor--1-0 {
+    background-position: 0 -36px;
+}
+.ratingTripadvisor.ratingTripadvisor--1-5 {
+    background-position: 0 -54px;
+}
+.ratingTripadvisor.ratingTripadvisor--2-0 {
+    background-position: 0 -72px;
+}
+.ratingTripadvisor.ratingTripadvisor--2-5 {
+    background-position: 0 -90px;
+}
+.ratingTripadvisor.ratingTripadvisor--3-0 {
+    background-position: 0 -108px;
+}
+.ratingTripadvisor.ratingTripadvisor--3-5 {
+    background-position: 0 -126px;
+}
+.ratingTripadvisor.ratingTripadvisor--4-0 {
+    background-position: 0 -144px;
+}
+.ratingTripadvisor.ratingTripadvisor--4-5 {
+    background-position: 0 -162px;
+}
+.ratingTripadvisor.ratingTripadvisor--5-0 {
+    background-position: 0 -180px;
+}
+.ratingTripadvisor.ratingTripadvisor--small {
+    height: 15px;
+    width: 92px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--0-0 {
+    background-position: 0 0;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--0-5 {
+    background-position: 0 -15px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--1-0 {
+    background-position: 0 -30px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--1-5 {
+    background-position: 0 -45px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--2-0 {
+    background-position: 0 -60px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--2-5 {
+    background-position: 0 -75px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--3-0 {
+    background-position: 0 -90px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--3-5 {
+    background-position: 0 -105px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--4-0 {
+    background-position: 0 -120px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--4-5 {
+    background-position: 0 -135px;
+}
+.ratingTripadvisor.ratingTripadvisor--small.ratingTripadvisor--5-0 {
+    background-position: 0 -150px;
+}
+.restaurantTag {
+    background-clip: padding-box;
+    border: 1px solid #939396;
+    border-radius: 5px;
+    color: #939396;
+    display: inline-block;
+    font-family: Omnes;
+    font-weight: 400;
+    padding: 0 5px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+a.restaurantTag:hover {
+    background-color: #939396;
+    color: #fff;
+}
+.restaurantTag.restaurantTag--bestOf {
+    border: 1px solid #589442;
+    color: #589442;
+}
+a.restaurantTag.restaurantTag--bestOf:hover {
+    background-color: #589442;
+    color: #fff;
+}
+.restaurantTag.restaurantTag--event {
+    border: 1px solid #b51817;
+    color: #b51817;
+}
+a.restaurantTag.restaurantTag--event:hover {
+    background-color: #b51817;
+    color: #fff;
+}
+.restaurantTag.restaurantTag--small {
+    background-clip: padding-box;
+    border-radius: 2px;
+    font-size: 10px;
+}
+.restaurantTag.restaurantTag--medium {
+    background-clip: padding-box;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.reviewsCount {
+    color: #8b8b91;
+    display: inline-block;
+    font-family: Omnes;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.reviewsCount.reviewsCount--small {
+    font-size: 12px;
+}
+.bookingButton {
+    border: 0 none;
+    display: inline-block;
+    font-size: 16px;
+    height: 38px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 8px 12px;
+    width: 65px;
+}
+.bookingButton.bookingButton--withDetails {
+    padding: 0 12px;
+}
+.bookingButton .bookingButton-detail {
+    color: #fff;
+    display: block;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 2px 0;
+}
+.bookingButton .bookingButton-detail.bookingButton-detail--specialOffer {
+    background-color: #e14123;
+}
+.bookingButton .bookingButton-detail.bookingButton-detail--menu {
+    background-color: #000;
+}
+.resultItem {
+    cursor: pointer;
+    display: table;
+    padding: 14px;
+    table-layout: fixed;
+    transition: box-shadow 0.2s ease 0s;
+    width: 100%;
+}
+.resultItem:hover {
+    box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.15);
+}
+.resultItem > div {
+    display: table-row;
+}
+.resultItem .resultItemContent {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.resultItem .resultItem-avatar {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    width: 120px;
+}
+.resultItem .resultItem-avatar a, .resultItem .resultItem-avatar span {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 120px;
+}
+.resultItem .resultItem-avatar img {
+    margin-left: -20px;
+}
+.resultItem .resultItem-favorite {
+    border-color: #fff transparent transparent #fff;
+    border-style: solid;
+    border-width: 20px;
+    display: block;
+    height: 0;
+    left: 0;
+    outline: 0 none;
+    position: absolute;
+    top: 0;
+    transform: scale(0.9999);
+    width: 0;
+    z-index: 10;
+}
+.resultItem .resultItem-favorite span {
+    display: block;
+    height: 20px;
+    left: -18px;
+    position: absolute;
+    top: -18px;
+    width: 18px;
+}
+.resultItem .resultItem-information {
+    display: table-cell;
+    padding: 0 12px;
+    vertical-align: top;
+}
+.resultItem .resultItem-name {
+    color: #4e4e56;
+    font-family: Omnes;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 12px;
+}
+.resultItem .resultItem-name a {
+    display: inline-block;
+    max-width: 90%;
+    overflow: hidden;
+    padding: 0 0 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.resultItem .resultItem-loyalty {
+    display: inline-block;
+    height: 19px;
+    margin-left: 5px;
+    vertical-align: top;
+    width: 19px;
+}
+.resultItem .resultItem-address, .resultItem .resultItem-averagePrice {
+    color: #8b8b91;
+    display: block;
+    font-size: 12px;
+    margin: 0 0 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.resultItem .resultItem-distance {
+    color: #4e4e56;
+}
+.resultItem .resultItem-averagePrice, .resultItem .resultItem-tagList {
+    margin: 0 0 5px;
+}
+.resultItem .resultItem-tagList li {
+    display: inline-block;
+    margin: 0 2px 2px 0;
+}
+.resultItem .resultItem-saleType {
+    display: block;
+    font-family: Omnes;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.resultItem .resultItem-saleType:hover {
+    text-decoration: none;
+}
+.resultItem .resultItem-saleType--specialOffer, .resultItem .resultItem-saleType--specialOffer a {
+    color: #e14123;
+}
+.resultItem .resultItem-saleType--specialOffer a:hover, .resultItem .resultItem-saleType--specialOffer:hover {
+    color: #e14123;
+}
+.resultItem .resultItem-saleType--event, .resultItem .resultItem-saleType--event a {
+    color: #b51817;
+}
+.resultItem .resultItem-saleType--event a:hover, .resultItem .resultItem-saleType--event:hover {
+    color: #b51817;
+}
+.resultItem .resultItem-rating {
+    border-left: 1px solid #dedede;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    width: 114px;
+}
+.resultItem .resultItem-rating a {
+    text-decoration: none;
+}
+.resultItem .resultItem-rating .ratingTripadvisor {
+    margin-top: 10px;
+}
+.resultItem .resultItem-rating.resultItem-rating--noTimeSlot {
+    padding-right: 98px;
+    width: 212px;
+}
+.resultItem .resultItem-booking {
+    display: table-cell;
+    padding: 0 0 0 30px;
+    position: relative;
+    vertical-align: top;
+    width: 98px;
+}
+.resultItem .resultItem-booking ul {
+    margin: 0;
+    width: 68px;
+}
+.resultItem .resultItem-booking li {
+    padding: 0 0 3px;
+}
+.resultItem .resultItem-booking .resultItem-bookingAvailabilitySentence {
+    color: #e14123;
+    font-family: Omnes;
+    font-size: 13px;
+    font-weight: 500;
+    left: -50px;
+    line-height: 12px;
+    margin-bottom: 12px;
+    position: relative;
+    text-align: right;
+    width: 120px;
+}
+.resultSeparator {
+    background: #589442 url("../../images/backgrounds/food.png") repeat scroll left -18px padding-box;
+    border-radius: 2px;
+    color: #fff;
+    margin: 10px 12px 10px 14px;
+    padding: 30px;
+    position: relative;
+}
+.resultSeparator::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent #fff;
+    border-image: none;
+    border-style: solid;
+    border-width: 1em;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 45px;
+    position: absolute;
+    z-index: 2;
+}
+.breadcrumbs, .breadcrumbs a, .breadcrumbs a:active, .breadcrumbs a:hover, .breadcrumbs a:visited {
+    color: #c5c5ca;
+}
+.breadcrumbs.breadcrumbs--white, .breadcrumbs.breadcrumbs--white a, .breadcrumbs.breadcrumbs--white a:active, .breadcrumbs.breadcrumbs--white a:hover, .breadcrumbs.breadcrumbs--white a:visited {
+    color: #fff;
+}
+.breadcrumbs .breadcrumbs-item {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.breadcrumbs, .breadcrumbs .breadcrumbs-itemContent {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 5px 0 0;
+}
+.searchBarWrapper {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.13);
+    width: 100%;
+    z-index: 3;
+}
+.searchBarWrapper .searchBar {
+    margin: 0 auto;
+}
+.no-boxshadow .searchBarWrapper {
+    border-bottom: 1px solid #dedede;
+}
+.searchBarWrapper.affix-bottom {
+    position: absolute;
+}
+.searchBarWrapper, .searchBarWrapper #searchText, .searchBarWrapper .searchBar {
+    transition: all 0.3s ease 0s;
+}
+.searchBarWrapper.affix {
+    top: 0;
+}
+.searchBarWrapper.affix, .searchBarWrapper.affix #searchText, .searchBarWrapper.affix .searchBar {
+    background-color: #f3f4f5;
+}
+.searchBarMenuFullText {
+    background-color: #fff;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 10px 0 42px;
+    width: 960px !important;
+    z-index: 10;
+}
+.no-boxshadow .searchBarMenuFullText {
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+.searchBarMenuFullText div {
+    border-bottom: 1px solid #e0e0e2;
+    margin: 0 0 0 55px;
+    padding: 10px 0;
+}
+.searchBarMenuFullText .searchBarMenuFullText-item {
+    background-position: 22px 12px;
+    cursor: pointer;
+}
+.searchBarMenuFullText .searchBarMenuFullText-location {
+    cursor: pointer;
+}
+.searchBarMenuFullText .searchBarMenuFullText-locationIcon {
+    background-clip: padding-box;
+    background-color: #589442;
+    background-position: center center;
+    border-radius: 4px;
+    float: left;
+    height: 29px;
+    margin: 6px 0 0 14px;
+    transition: background-color 0.3s ease 0s;
+    width: 30px;
+}
+.searchBarMenuFullText .searchBarMenuFullText-locationIcon:hover {
+    background-color: #437132;
+}
+.searchBarMenuFullText .searchBarMenuFullText-locationLink {
+    color: #589442;
+    margin: 0 0 0 55px;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: color 0.3s ease 0s;
+}
+.searchBarMenuFullText .searchBarMenuFullText-locationLink:hover {
+    color: #437132;
+}
+.searchBarMenuFullText .searchBarMenuFullText-seeMore {
+    margin-top: 28px;
+    text-align: center;
+}
+.searchBarMenuFullText .searchBarMenuFullText-seeMore a {
+    background-clip: padding-box;
+    border: 2px solid #c5c5ca;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.ui-datepicker table th {
+    color: #589442;
+    font-weight: 400;
+}
+.ui-datepicker table td a, .ui-datepicker table td span {
+    font-size: 14px;
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-header {
+    font-size: 16px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next, .ui-datepicker .ui-datepicker-header .ui-datepicker-next-hover, .ui-datepicker .ui-datepicker-header .ui-datepicker-prev, .ui-datepicker .ui-datepicker-header .ui-datepicker-prev-hover {
+    top: 5px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next span, .ui-datepicker .ui-datepicker-header .ui-datepicker-next-hover span, .ui-datepicker .ui-datepicker-header .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-header .ui-datepicker-prev-hover span {
+    cursor: pointer;
+    height: 12px;
+    width: 8px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-prev {
+    left: 7px;
+    right: inherit;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+    left: inherit;
+    right: -2px;
+}
+.ui-datepicker .ui-datepicker-header span {
+    height: 12px;
+    width: 8px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-month {
+    text-transform: capitalize;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a {
+    background-color: rgba(88, 148, 66, 0.4);
+    color: #589442;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable {
+    color: #c5c5ca;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-current-day a, .ui-datepicker .ui-datepicker-calendar a.ui-state-hover {
+    background-color: #589442;
+    color: #fff;
+}
+.searchBarMenu {
+    background-clip: padding-box;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    list-style: outside none none;
+    padding: 10px;
+    position: absolute;
+    z-index: 10;
+}
+.no-boxshadow .searchBarMenu {
+    border: 1px solid #dedede;
+}
+.no-boxshadow .searchBarMenu::before {
+    border: medium none;
+}
+.searchBarMenu li {
+    cursor: pointer;
+    min-width: 35px;
+    padding: 2px 5px;
+    text-align: left;
+}
+.searchBarMenu li:hover {
+    background-color: #589442;
+    color: #fff;
+}
+.searchBarMenu::before {
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 10px;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 20px;
+    position: absolute;
+    right: auto;
+    top: -20px;
+    transform: scale(0.9999);
+    width: 0;
+}
+.searchBarMenu--flipped.searchBarMenu::before {
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    bottom: -20px;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 20px;
+    position: absolute;
+    right: auto;
+    top: auto;
+    transform: scale(0.9999);
+    width: 0;
+}
+.searchBarMenu #pax-button, .searchBarMenu #time-menu {
+    width: 80px;
+}
+.searchBarMenu.searchBar-datepickerWrapper {
+    padding: 15px 25px;
+}
+.searchBarMenu.searchBar-error {
+    background-position: 15px 10px;
+    padding-left: 50px;
+    width: 340px;
+}
+.searchBarMenu.searchBarMenuFoodType li {
+    cursor: pointer;
+}
+.searchBarMenu.searchBarMenuFoodType a:hover {
+    text-decoration: none;
+}
+.searchBarSubmit {
+    overflow: hidden;
+}
+.searchBarSubmit .searchBarSubmit-content {
+    display: block;
+    position: relative;
+}
+.searchBarSubmit .searchBarSubmit-content::after, .searchBarSubmit .searchBarSubmit-content::before {
+    height: 15px;
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    transition: opacity 0.3s ease 0.3s;
+    width: 15px;
+}
+.searchBarSubmit.searchBarSubmit--icon .searchBarSubmit-content {
+    transform: translateX(160%);
+    transition: -webkit-transform 0.3s ease 0s, -moz-transform 0.3s ease 0s, -o-transform 0.3s ease 0s, transform 0.3s ease 0s;
+    z-index: 10;
+}
+.searchBarSubmit.searchBarSubmit--icon .searchBarSubmit-content::before {
+    content: "";
+    left: -100%;
+    margin-left: -15px;
+    margin-top: -7px;
+    opacity: 1;
+    right: auto;
+    top: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease 0s;
+}
+.searchBar {
+    -moz-user-select: none;
+    background-clip: padding-box;
+    background-color: #fff;
+    border-radius: 3px;
+    display: table;
+    font-size: 16px;
+    height: 60px;
+    width: 960px;
+}
+.searchBar input {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.searchBar .searchBar-error {
+    display: none;
+}
+.searchBar .searchBar-where {
+    background-position: 14px center;
+    display: table-cell;
+    outline: 0 none;
+    padding: 0 0 0 43px;
+    position: relative;
+    vertical-align: middle;
+}
+.searchBar--standalone.searchBar .searchBar-where {
+    background-position: 5px center;
+    padding: 0 0 0 35px;
+}
+.searchBar .searchBar-where .searchBar-whereInputContainer {
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.searchBar .searchBar-where .searchBar-whereInputContainer input {
+    font-size: 16px;
+    outline: 0 none;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.searchBar .searchBar-where .searchBar-whereIconContainer {
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    padding: 0 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 29px;
+}
+.searchBar .searchBar-where .searchBar-whereIconContainer .searchBar-whereIcon {
+    background-clip: padding-box;
+    background-position: center center;
+    border-radius: 4px;
+    height: 29px;
+    width: 29px;
+}
+.searchBar .searchBar-where .searchBar-whereIconContainer .searchBar-whereIcon.searchBar-whereIcon--location {
+    background-color: #589442;
+    transition: background-color 0.3s ease 0s;
+}
+.searchBar .searchBar-where .searchBar-whereIconContainer .searchBar-whereIcon.searchBar-whereIcon--location:hover {
+    background-color: #437132;
+}
+.searchBar .searchBar-cuisineContainer {
+    background-position: right center;
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    transition: background-color 0.3s ease 0s;
+    vertical-align: middle;
+    width: 111px;
+}
+.searchBar .searchBar-cuisineContainer:hover {
+    background-color: #bbd3b2;
+}
+.searchBar .searchBar-cuisineContainer:hover .searchBar-inputContainer, .searchBar .searchBar-cuisineContainer:hover + div .searchBar-inputContainer {
+    border-left-color: transparent;
+}
+.searchBar .searchBar-cuisineContainer .searchBar-inputContainer {
+    background-position: right 11px;
+    border-left: 1px solid #dedede;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 20px 0 10px;
+    transition: border-left-color 0.3s ease 0s;
+    width: 101px;
+}
+.searchBar .searchBar-cuisineContainer select {
+    background-color: transparent;
+    display: none;
+    outline: 0 none;
+    padding-right: 20px;
+    text-overflow: ellipsis;
+    width: 136px;
+}
+.searchBar .searchBar-cuisineContainer label {
+    display: none;
+}
+.searchBar .searchBar-dateContainer {
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    transition: background-color 0.3s ease 0s;
+    vertical-align: middle;
+    width: 98px;
+}
+.searchBar .searchBar-dateContainer:hover {
+    background-color: #bbd3b2;
+}
+.searchBar .searchBar-dateContainer:hover .searchBar-inputContainer, .searchBar .searchBar-dateContainer:hover + div .searchBar-inputContainer {
+    border-left-color: transparent;
+}
+.searchBar .searchBar-dateContainer .searchBar-inputContainer {
+    background-position: right 11px;
+    border-left: 1px solid #dedede;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 20px 0 10px;
+    transition: border-left-color 0.3s ease 0s;
+    width: 88px;
+}
+.searchBar .searchBar-date {
+    background-position: right center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.searchBar .searchBar-datepickerWrapper {
+    display: none;
+    text-align: center;
+}
+.searchBar .searchBar-datepickerWrapper .searchBar-noDate {
+    font-size: 12px;
+}
+.searchBar .searchBar-separatorContainer {
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    vertical-align: middle;
+    width: 17px;
+}
+.searchBar .searchBar-separatorContainer .searchBar-separator {
+    border-left: 1px solid #dedede;
+    height: 22px;
+    width: 1px;
+}
+.searchBar--embed.searchBar .searchBar-separatorContainer {
+    display: none;
+}
+.searchBar .searchBar-hourContainer {
+    background-position: right center;
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    transition: background-color 0.3s ease 0s;
+    vertical-align: middle;
+    width: 98px;
+}
+.searchBar .searchBar-hourContainer:hover {
+    background-color: #bbd3b2;
+}
+.searchBar .searchBar-hourContainer:hover .searchBar-inputContainer, .searchBar .searchBar-hourContainer:hover + div .searchBar-inputContainer {
+    border-left-color: transparent;
+}
+.searchBar .searchBar-hourContainer .searchBar-inputContainer {
+    background-position: right 11px;
+    border-left: 1px solid #dedede;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 20px 0 10px;
+    transition: border-left-color 0.3s ease 0s;
+    width: 88px;
+}
+.searchBar .searchBar-hourContainer label {
+    display: none;
+}
+.searchBar .searchBar-hour {
+    display: none;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 100%;
+}
+.searchBar .searchBar-paxContainer {
+    background-position: right center;
+    cursor: pointer;
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    transition: background-color 0.3s ease 0s;
+    vertical-align: middle;
+    width: 98px;
+}
+.searchBar .searchBar-paxContainer:hover {
+    background-color: #bbd3b2;
+}
+.searchBar .searchBar-paxContainer:hover .searchBar-inputContainer, .searchBar .searchBar-paxContainer:hover + div .searchBar-inputContainer {
+    border-left-color: transparent;
+}
+.searchBar .searchBar-paxContainer .searchBar-inputContainer {
+    background-position: right 11px;
+    border-left: 1px solid #dedede;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 20px 0 10px;
+    transition: border-left-color 0.3s ease 0s;
+    width: 88px;
+}
+.searchBar .searchBar-paxContainer label {
+    display: none;
+}
+.searchBar .searchBar-pax {
+    display: none;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 100%;
+}
+.searchBar .searchBar-btn {
+    display: table-cell;
+    outline: 0 none;
+    position: relative;
+    text-align: right;
+    vertical-align: middle;
+    width: 1%;
+}
+.searchBar .searchBar-btn input {
+    background-clip: padding-box;
+    border: medium none;
+    border-radius: 0 3px 3px 0;
+    line-height: 60px;
+    padding: 0 10px;
+}
+.searchBar.searchBar--embed {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.13);
+}
+.searchBar.searchBar--embed .searchBar-btn button, .searchBar.searchBar--embed .searchBar-btn input {
+    background-clip: padding-box;
+    border-radius: 0 3px 3px 0;
+    line-height: 42px;
+}
+.searchBar.searchBar--standalone .searchBar-btn input {
+    background-clip: padding-box;
+    border-radius: 4px;
+    line-height: 42px;
+}
+.searchBar--black .searchBarWrapper {
+    background-color: #4e4e56;
+    border-spacing: 8px 0;
+    padding: 9px 0;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone {
+    background-color: transparent;
+    height: 42px;
+    width: 976px;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-inputContainer {
+    border-left: 0 none;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-cuisineContainer, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-dateContainer, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-hourContainer, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-paxContainer, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-where, .searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-whereIconContainer {
+    background-clip: padding-box;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-where {
+    background-position: 10px center;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-whereInputContainer #searchText {
+    background-color: #fff;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-whereIconContainer {
+    padding-right: 0;
+}
+.searchBar--black .searchBarWrapper .searchBar--standalone .searchBar-separatorContainer {
+    display: none;
+}
+.searchHeader h1 {
+    margin: 0 0 20px;
+}
+.searchHeader .searchHeader-content {
+    background-color: #f3f4f5;
+    padding: 15px;
+}
+.searchHeader .searchHeader-content h2 {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2px 0 0;
+}
+.searchHeader .searchHeader-shareLink {
+    background-position: 5px 5px;
+    color: #939396;
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    padding: 0 0 0 40px;
+    text-transform: uppercase;
+    width: 150px;
+}
+.searchHeader .searchHeader-sortRestaurants {
+    margin: -5px 0;
+}
+.nearbyCities {
+    padding: 50px 12px 0 14px;
+}
+.nearbyCities h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.nearbyCities .nearbyCities-citylist {
+    padding: 0;
+}
+.nearbyCities .nearbyCities-citylist .nearbyCities-city {
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    list-style-type: none;
+    margin: 0 2% 3px 0;
+    width: 32%;
+}
+.nearbyCities .nearbyCities-citylist .nearbyCities-city.thirdColumn {
+    margin-right: 0;
+}
+.nearbyCities .nearbyCities-citylist .nearbyCities-city a {
+    text-decoration: none;
+}
+.nearbyCities .nearbyCities-citylist .nearbyCities-city a:hover {
+    text-decoration: underline;
+}
+.nearbyCities .nearbyCities-citylist .nearbyCities-city .nearbyCities-distance {
+    background-color: #ccc;
+    border-radius: 1px;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 3px;
+    padding: 1px 4px 0;
+}
+.newsletterSignup {
+    background: transparent url("../../images/newsletter/newsletter-blocker-bg.jpg") no-repeat scroll center center;
+    color: #fff;
+    padding: 20px 50px;
+}
+.newsletterSignup .newsletterSignup-logo {
+    height: 40px;
+    margin: 0 auto 40px;
+}
+.newsletterSignup .newsletterSignup-logo.icon-lafourchette {
+    width: 183px;
+}
+.newsletterSignup .newsletterSignup-logo.icon-eltenedor {
+    width: 160px;
+}
+.newsletterSignup .newsletterSignup-logo.icon-thefork {
+    width: 131px;
+}
+.newsletterSignup .newsletterSignup-promo {
+    background: #fff none repeat scroll 0 0 padding-box;
+    border-radius: 4px;
+    color: #34373f;
+    min-height: 235px;
+    padding-top: 20px;
+}
+.newsletterSignup .newsletterSignup-promoIcon {
+    background-position: center center;
+    border-radius: 50%;
+    height: 52px;
+    margin: 0 auto 10px;
+    padding: 50px;
+    width: 68px;
+}
+.newsletterSignup .newsletterSignup-promoIcon.newsletterSignup-promoIcon--discover {
+    background-color: #921345;
+    box-shadow: -10px 10px 30px -8px #210410 inset;
+}
+.newsletterSignup .newsletterSignup-promoIcon.newsletterSignup-promoIcon--book {
+    background-color: #589442;
+    box-shadow: -10px 10px 30px -8px #243c1b inset;
+}
+.newsletterSignup .newsletterSignup-promoIcon.newsletterSignup-promoIcon--specialOffer {
+    background-color: #e14123;
+    box-shadow: -10px 10px 30px -8px #752010 inset;
+}
+.newsletterSignup .newsletterSignup-promoContent {
+    margin: 0 auto;
+    text-align: center;
+    width: 140px;
+}
+.newsletterSignup .newsletterSignup-promoLabel, .newsletterSignup .newsletterSignup-title {
+    display: block;
+    font-size: 20px;
+}
+.newsletterSignup .newsletterSignup-title {
+    margin: 36px 0;
+    text-align: center;
+}
+.newsletterSignup .newsletterSignup-inputFields label {
+    display: none;
+}
+.newsletterSignup .newsletterSignup-legal {
+    font-size: 12px;
+    text-align: center;
+}
+.newsletterSignup input[disabled] {
+    cursor: default;
+}
+.newsletterSignup .has-error {
+    margin-bottom: 0;
+}
+.newsletterSignup .has-error input {
+    color: #e52814;
+}
+.newsletterSignup .error {
+    color: #e52814;
+    font-size: 12px;
+    list-style: outside none none;
+    padding: 0 0 0 20px;
+}
+.desktopBanner {
+    transition: box-shadow 0.4s ease 0s;
+}
+.desktopBanner:hover {
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.desktopBanner img {
+    background-clip: padding-box;
+    border-radius: 4px;
+}
+.searchHeader {
+    margin: 0 0 38px;
+}
+#search_filter {
+    float: left;
+    width: 260px;
+}
+#search_filter h2, #search_filter h3 {
+    margin: 0;
+}
+#search_filter #map {
+    height: 120px;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: 2;
+}
+#search_filter #map #map_canvas {
+    background: rgba(0, 0, 0, 0) url("../../images/search/map.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+#search_filter #map .btn {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+}
+#results {
+    float: right;
+    left: 12px;
+    position: relative;
+    width: 700px;
+}
+#results .noResult-container {
+    padding-left: 15px;
+}
+#results .noResult-container .noResult-message {
+    margin-bottom: 40px;
+}
+#results .noResult-container .noResult-message h1 {
+    margin: 0 0 20px;
+}
+#results .noResult-container .noResult-suggestions h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+#results .noResult-container .noResult-suggestions .noResult-suggestionsList {
+    margin-left: -12px;
+    width: 712px;
+}
+#results.full_width {
+    float: none;
+    left: 0;
+    width: 100%;
+}
+#results.full_width .noResult-container {
+    padding-left: 0;
+}
+#results.full_width .noResult-container .noResult-message h1 {
+    margin-top: 40px;
+}
+#results.full_width .noResult-container .noResult-suggestions .noResult-suggestionsList {
+    width: 985px;
+}
+.resultItem {
+    margin: 0 0 4px;
+}
+.resultItem:first-child {
+    margin-top: -14px;
+}
+.hiddenAbTest {
+    display: none;
+}
+.breadcrumbs {
+    padding: 20px 0 10px;
+}
+.desktopBanner {
+    margin: 10px auto;
+    width: 674px;
+}
